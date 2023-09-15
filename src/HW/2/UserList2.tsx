@@ -2,7 +2,7 @@ import {CurrentUser} from './CurrentUser';
 import {UsersObjectType, UserType} from './HW2';
 
 type UserList2PropsType = {
-	users: any // пропиши типизацию
+	users: UsersObjectType // пропиши типизацию
 	filterUsers: ()=>void // пропиши типизацию
 };
 
